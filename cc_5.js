@@ -33,3 +33,9 @@ console.log("cartItems: ", cartItems); // Log of the final array
 let prices = [100, 200, 300]; // Make an array with three prices
 let discountedPrices = prices.map(price => price *0.9); // Apply a 10% discount to each of teh product prices 
 console.log("Discounted Prices", discountedPrices); // Log the discounted prices of each product
+
+// Task 5 - Product Availability
+
+let inventory = [20, 50, 25, 0, 10]; // Declare product inventories for five products
+let inStock = inventory.filter(zeroStock => zeroStock > 0); // remove product inventory from the array that has zero stock
+console.log("Inventory in Stock", inStock); // Log the in stock product amounts
