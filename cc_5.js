@@ -67,3 +67,8 @@ function applyDiscount(price, discount) {
 }; // create a function that subtracks a discount amount using the inputted price and discount percentage
 let discountedprice = applyDiscount(500, .20); // calculate the discounted price of 20% off a $500 purchase
 console.log("Discounted Price: $", discountedprice); // Log the discounted price
+
+// Task 10 - Loyalty Points
+
+const calculatePoints = (purchaseAmount) => purchaseAmount/10; // Arrow function to calculate loyalty points earned, 1 point for every $10
+console.log("Loyalty Points Earned:", calculatePoints(100)); // Log the number of loyalty points earned
