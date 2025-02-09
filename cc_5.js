@@ -54,9 +54,16 @@ let Charlie = customers.find(customer => customer === "Charlie") // Use the find
 
 // Task 8 - Tax Calculation
 
-
 function calculateTax(amount, taxRate) {
     return amount * taxRate;
-}
-let calculatedTax = calculateTax(500, .10);
-console.log(`Tax calculation: ${calculatedTax}`)
+}; // create a function that calculates the tax based on the amount and taxrate
+let calculatedTax = calculateTax(500, .10); // calculating tax for an amount of 500 using a 10% rate
+console.log(`Tax calculation: ${calculatedTax}`) // Logging the amount of calculated tax
+
+// Task 9 - Discount Application
+
+function applyDiscount(price, discount) {
+    return (price - (price * discount));
+}; // create a function that subtracks a discount amount using the inputted price and discount percentage
+let discountedprice = applyDiscount(500, .20); // calculate the discounted price of 20% off a $500 purchase
+console.log("Discounted Price: $", discountedprice); // Log the discounted price
