@@ -45,3 +45,10 @@ console.log("Inventory in Stock", inStock); // Log the in stock product amounts
 let sales = [500, 300, 200, 400]; // Declare an array with sales amounts
 let total = sales.reduce((sum, price) => sum + price, 0); // Adds the total of all the sales together
 console.log("Total Sales: ", total); // Logs the total amount of sales
+
+// Task 7 - Customer Search
+
+let customers = ["Alice", "Bob", "Charlie", "David"]; // Declared an array of four customers
+let Charlie = customers.find(customer => customer === "Charlie") // Use the find method to locate the customer named "Charlie"
+   console.log("Located customer name: ", Charlie); // Log the found customer
+   
