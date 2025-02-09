@@ -12,7 +12,7 @@ console.log("Customer Information: ", customer); // log customer information
 let order = {
     orderID: 101,
     totalAmount: 200,
-    status: "Processing", // create an order with an assigned orderID, amount and status
+    status: "Processing", // create an order with an assigned orderID, amount, and status
     displayOrder: function(){ // create the method displayorder
         console.log(`OrderID:: ${this.orderID}, Amount: ${this.totalAmount}, Status: ${this.status}`);
     }}; // allows to log the order as one long string with all the details
