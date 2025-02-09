@@ -27,3 +27,9 @@ cartItems.pop(); // removes the last item "helment" from the cart
 cartItems.unshift("oxygen"); // adds item "oxygen" to the cart list at the start of the array
 cartItems.shift(); // Removes the first item "oxygen"
 console.log("cartItems: ", cartItems); // Log of the final array
+
+// Task 4 - Map Method
+
+let prices = [100, 200, 300]; // Make an array with three prices
+let discountedPrices = prices.map(price => price *0.9); // Apply a 10% discount to each of teh product prices 
+console.log("Discounted Prices", discountedPrices); // Log the discounted prices of each product
