@@ -51,4 +51,12 @@ console.log("Total Sales: ", total); // Logs the total amount of sales
 let customers = ["Alice", "Bob", "Charlie", "David"]; // Declared an array of four customers
 let Charlie = customers.find(customer => customer === "Charlie") // Use the find method to locate the customer named "Charlie"
    console.log("Located customer name: ", Charlie); // Log the found customer
-   
+
+// Task 8 - Tax Calculation
+
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+let calculatedTax = calculateTax(500, .10);
+console.log(`Tax calculation: ${calculatedTax}`)
